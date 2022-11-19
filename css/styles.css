@@ -15,6 +15,11 @@ body {
   color: #000000;
 }
 
+.logo:hover,
+.logo:focus {
+  background-color: #2196f3;
+}
+
 .link-nav {
   color: #212121;
   text-decoration: none;
