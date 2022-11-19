@@ -27,16 +27,16 @@ body {
   color: #2196f3;
 }
 
-.mail { 
+.mail {
   color: #757575;
   text-decoration: none;
-font-size: 14px;
-font-weight: 500;
-font-family: roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: roboto;
 }
 .mail:hover,
 .mail:focus {
-color: #2196f3;
+  color: #2196f3;
 }
 .tel {
   color: #757575;
@@ -47,4 +47,164 @@ color: #2196f3;
 }
 .tel:hover,
 .tel:focus {
-color: #2196f3;
+  color: #2196f3;
+}
+
+.hero {
+  background-color: #2f303a;
+  text-align: center;
+  width: 1600px;
+  height: 600px;
+  left: 0px;
+  top: 80px;
+}
+
+.hero h1 {
+  color: #ffffff;
+  font-weight: 900;
+  line-height: 1.36;
+  font-size: 44px;
+  text-transform: uppercase;
+  letter-spacing: 0.06;
+  width: 696px;
+  height: 120px;
+  left: 452px;
+  top: 280px;
+}
+
+.button {
+  background-color: #f5f4fa;
+  color: #212121;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+
+.lorem {
+  color: #212121;
+  line-height: 1.17;
+}
+
+.ipsum {
+  color: #757575;
+  line-height: 1.71;
+  font-weight: 400;
+}
+.competition-topic {
+  color: #212121;
+  line-height: 1.17;
+  text-align: center;
+  font-size: 36px;
+  letter-spacing: 00.03em;
+}
+
+.laptops-photo {
+  background-color: url;
+  width: 500px;
+}
+
+.our-team {
+  background-color: #f5f4fa;
+}
+
+.our-team-topic {
+  color: #212121;
+  line-height: 1.17;
+  text-align: center;
+  font-size: 36px;
+}
+
+.cards {
+  box-shadow: #000000;
+}
+
+.john-doe-name {
+  color: #212121;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.19;
+
+  letter-spacing: 00.03em;
+}
+
+.john-profession {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.18;
+}
+
+.address-footer {
+  background-color: #2f303a;
+}
+
+.street {
+  color: #ffffff;
+  text-decoration: none;
+  font-style: normal;
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 400;
+}
+.mail-footer {
+  color: #ffffff;
+  text-decoration-line: underline;
+  font-style: normal;
+  font-family: roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.mail-footer:hover,
+.mail-footer:focus {
+  color: #2196f3;
+}
+.tel-footer {
+  color: #ffffff;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+}
+
+.tel-footer:hover,
+.tel-footer:focus {
+  color: #2196f3;
+}
+
+.logo-studio-footer {
+  color: #ffffff;
+}
+
+.buttons-poftfolio {
+  background-color: #f5f4fa;
+  width: 572px;
+  height: 53.25px;
+}
+
+.img-photo-portfolio { 
+  background-color: url;
+  width: 370px;
+  height: 289.89;
+
+}
+
+.topic-photo-portfolio {
+  color: #212121;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.fields-photo-portfolio {
+  color: #757575;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.87;
+}
