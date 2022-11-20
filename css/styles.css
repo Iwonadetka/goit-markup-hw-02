@@ -1,5 +1,12 @@
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --brand-color: #212121;
+  --blue-color: #2196f3;
+  --gray-color:#757575;
+  --white-backround-color: #f5f4fa;
 }
 
 .logo {
@@ -9,7 +16,7 @@ body {
   font-family: raleway;
 }
 .logo-web {
-  color: #2196f3;
+  color:var(--blue-color);
 }
 .logo-studio {
   color: #000000;
@@ -17,42 +24,40 @@ body {
 
 .logo:hover,
 .logo:focus {
-  background-color: #2196f3;
+  background-color:var(--blue-color);
 }
 
-.link-nav {
-  color: #212121;
+.main-controls {
+  color: var(--brand-color);
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
-  font-family: roboto;
 }
-.link-nav:hover,
-.link-nav:focus {
-  color: #2196f3;
+.main-controls:hover,
+.main-controls:focus {
+  color: var(--blue-color);
 }
 
 .mail {
-  color: #757575;
+  color:var(--gray-color);
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
-  font-family: roboto;
+  
 }
 .mail:hover,
 .mail:focus {
-  color: #2196f3;
+  color: var(--blue-color);
 }
 .tel {
-  color: #757575;
+  color:var(--gray-color);
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
-  font-family: roboto;
 }
 .tel:hover,
 .tel:focus {
-  color: #2196f3;
+  color:var(--blue-color);
 }
 
 .hero {
@@ -77,30 +82,29 @@ body {
   top: 280px;
 }
 
-.button {
-  background-color: #f5f4fa;
-  color: #212121;
+.switch {
+  background-color:var(--white-backround-color);
+  color: var(--brand-color);
   cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
+.switch:hover,
+.switch:focus {
   color: #ffffff;
-  background-color: #2196f3;
+  background-color:var(--blue-color);
 }
 
 .lorem {
-  color: #212121;
+  color:var(--brand-color);
   line-height: 1.17;
 }
 
 .ipsum {
-  color: #757575;
+  color:var(--gray-color);
   line-height: 1.71;
-  font-weight: 400;
 }
 .competition-topic {
-  color: #212121;
+  color:var(--brand-color);
   line-height: 1.17;
   text-align: center;
   font-size: 36px;
@@ -113,11 +117,11 @@ body {
 }
 
 .our-team {
-  background-color: #f5f4fa;
+  background-color:var(--white-backround-color);
 }
 
 .our-team-topic {
-  color: #212121;
+  color:var(--brand-color);
   line-height: 1.17;
   text-align: center;
   font-size: 36px;
@@ -128,7 +132,7 @@ body {
 }
 
 .john-doe-name {
-  color: #212121;
+  color:var(--brand-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
@@ -137,78 +141,69 @@ body {
 }
 
 .john-profession {
-  color: #757575;
+  color:var(--gray-color);
   font-size: 16px;
-  font-weight: 400;
   line-height: 1.18;
 }
 
-.address-footer {
+.address-bottom {
   background-color: #2f303a;
 }
 
 .street {
   color: #ffffff;
   text-decoration: none;
-  font-style: normal;
   font-family: roboto;
   font-size: 14px;
-  font-weight: 400;
 }
-.mail-footer {
+.mail-bottom {
   color: #ffffff;
   text-decoration-line: underline;
-  font-style: normal;
-  font-family: roboto;
   font-size: 14px;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
 }
 
-.mail-footer:hover,
-.mail-footer:focus {
-  color: #2196f3;
+.mail-bottom:hover,
+.mail-bottom:focus {
+  color:var(--blue-color);
 }
-.tel-footer {
+.tel-bottom {
   color: #ffffff;
   text-decoration: none;
-  font-style: normal;
-  font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.03em;
 }
 
-.tel-footer:hover,
-.tel-footer:focus {
-  color: #2196f3;
+.tel-bottom:hover,
+.tel-bottom:focus {
+  color:var(--blue-color);
 }
 
-.logo-studio-footer {
+.logo-studio-bottom {
   color: #ffffff;
 }
 
-.buttons-poftfolio {
-  background-color: #f5f4fa;
+.switch-poftfolio {
+  background-color:var(--white-backround-color);
   width: 572px;
   height: 53.25px;
 }
 
-.img-photo-portfolio { 
+.img-photo-portfolio {
   background-color: url;
   width: 370px;
   height: 289.89;
-
 }
 
 .topic-photo-portfolio {
-  color: #212121;
+  color:var(--brand-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
 .fields-photo-portfolio {
-  color: #757575;
+  color:var(--gray-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
