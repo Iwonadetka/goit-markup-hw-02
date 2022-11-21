@@ -5,13 +5,11 @@ body {
 :root {
   --brand-color: #212121;
   --blue-color: #2196f3;
-  --gray-color:#757575;
+  --gray-color: #757575;
   --white-backround-color: #f5f4fa;
   --black-color: #000000;
-  --pure-white: #ffffff; 
-  --dark-gray:#2f303a;
-
-
+  --pure-white: #ffffff;
+  --dark-gray: #2f303a;
 }
 
 .logo {
@@ -21,15 +19,15 @@ body {
   font-family: raleway;
 }
 .logo-web {
-  color:var(--blue-color);
+  color: var(--blue-color);
 }
 .logo-studio {
-  color: var(--black-color)
+  color: var(--black-color);
 }
 
 .logo:hover,
 .logo:focus {
-  background-color:var(--blue-color);
+  background-color: var(--blue-color);
 }
 
 .main-controls {
@@ -44,29 +42,28 @@ body {
 }
 
 .mail {
-  color:var(--gray-color);
+  color: var(--gray-color);
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
-  
 }
 .mail:hover,
 .mail:focus {
   color: var(--blue-color);
 }
 .tel {
-  color:var(--gray-color);
+  color: var(--gray-color);
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
 }
 .tel:hover,
 .tel:focus {
-  color:var(--blue-color);
+  color: var(--blue-color);
 }
 
 .hero {
-  background-color:var(--dark-gray);
+  background-color: var(--dark-gray);
   text-align: center;
   width: 1600px;
   height: 600px;
@@ -88,7 +85,7 @@ body {
 }
 
 .switch {
-  background-color:var(--white-backround-color);
+  background-color: var(--white-backround-color);
   color: var(--brand-color);
   cursor: pointer;
 }
@@ -96,20 +93,20 @@ body {
 .switch:hover,
 .switch:focus {
   color: var(--pure-white);
-  background-color:var(--blue-color);
+  background-color: var(--blue-color);
 }
 
 .lorem {
-  color:var(--brand-color);
+  color: var(--brand-color);
   line-height: 1.17;
 }
 
 .ipsum {
-  color:var(--gray-color);
+  color: var(--gray-color);
   line-height: 1.71;
 }
 .competition-topic {
-  color:var(--brand-color);
+  color: var(--brand-color);
   line-height: 1.17;
   text-align: center;
   font-size: 36px;
@@ -122,11 +119,11 @@ body {
 }
 
 .our-team {
-  background-color:var(--white-backround-color);
+  background-color: var(--white-backround-color);
 }
 
 .our-team-topic {
-  color:var(--brand-color);
+  color: var(--brand-color);
   line-height: 1.17;
   text-align: center;
   font-size: 36px;
@@ -137,7 +134,7 @@ body {
 }
 
 .john-doe-name {
-  color:var(--brand-color);
+  color: var(--brand-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
@@ -146,13 +143,13 @@ body {
 }
 
 .john-profession {
-  color:var(--gray-color);
+  color: var(--gray-color);
   font-size: 16px;
   line-height: 1.18;
 }
 
 .address-bottom {
-  background-color:var(--dark-gray);
+  background-color: var(--dark-gray);
 }
 
 .street {
@@ -171,7 +168,7 @@ body {
 
 .mail-bottom:hover,
 .mail-bottom:focus {
-  color:var(--blue-color);
+  color: var(--blue-color);
 }
 .tel-bottom {
   color: var(--pure-white);
@@ -182,7 +179,7 @@ body {
 
 .tel-bottom:hover,
 .tel-bottom:focus {
-  color:var(--blue-color);
+  color: var(--blue-color);
 }
 
 .logo-studio-bottom {
@@ -190,7 +187,7 @@ body {
 }
 
 .switch-poftfolio {
-  background-color:var(--white-backround-color);
+  background-color: var(--white-backround-color);
   width: 572px;
   height: 53.25px;
 }
@@ -202,13 +199,13 @@ body {
 }
 
 .topic-photo-portfolio {
-  color:var(--brand-color);
+  color: var(--brand-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
 .fields-photo-portfolio {
-  color:var(--gray-color);
+  color: var(--gray-color);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
