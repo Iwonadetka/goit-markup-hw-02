@@ -114,7 +114,6 @@ body {
 }
 
 .laptops-photo {
-  background-color: url;
   width: 500px;
 }
 
@@ -127,10 +126,6 @@ body {
   line-height: 1.17;
   text-align: center;
   font-size: 36px;
-}
-
-.cards {
-  box-shadow: var(--black-color);
 }
 
 .john-doe-name {
@@ -155,7 +150,6 @@ body {
 .street {
   color: var(--pure-white);
   text-decoration: none;
-  font-family: roboto;
   font-size: 14px;
 }
 .mail-bottom {
@@ -193,7 +187,6 @@ body {
 }
 
 .img-photo-portfolio {
-  background-color: url;
   width: 370px;
   height: 289.89;
 }
