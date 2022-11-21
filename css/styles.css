@@ -7,6 +7,11 @@ body {
   --blue-color: #2196f3;
   --gray-color:#757575;
   --white-backround-color: #f5f4fa;
+  --black-color: #000000;
+  --pure-white: #ffffff; 
+  --dark-gray:#2f303a;
+
+
 }
 
 .logo {
@@ -19,7 +24,7 @@ body {
   color:var(--blue-color);
 }
 .logo-studio {
-  color: #000000;
+  color: var(--black-color)
 }
 
 .logo:hover,
@@ -61,7 +66,7 @@ body {
 }
 
 .hero {
-  background-color: #2f303a;
+  background-color:var(--dark-gray);
   text-align: center;
   width: 1600px;
   height: 600px;
@@ -69,8 +74,8 @@ body {
   top: 80px;
 }
 
-.hero h1 {
-  color: #ffffff;
+.topic {
+  color: var(--pure-white);
   font-weight: 900;
   line-height: 1.36;
   font-size: 44px;
@@ -90,7 +95,7 @@ body {
 
 .switch:hover,
 .switch:focus {
-  color: #ffffff;
+  color: var(--pure-white);
   background-color:var(--blue-color);
 }
 
@@ -128,7 +133,7 @@ body {
 }
 
 .cards {
-  box-shadow: #000000;
+  box-shadow: var(--black-color);
 }
 
 .john-doe-name {
@@ -147,20 +152,20 @@ body {
 }
 
 .address-bottom {
-  background-color: #2f303a;
+  background-color:var(--dark-gray);
 }
 
 .street {
-  color: #ffffff;
+  color: var(--pure-white);
   text-decoration: none;
   font-family: roboto;
   font-size: 14px;
 }
 .mail-bottom {
-  color: #ffffff;
+  color: var(--pure-white);
   text-decoration-line: underline;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
@@ -169,9 +174,9 @@ body {
   color:var(--blue-color);
 }
 .tel-bottom {
-  color: #ffffff;
+  color: var(--pure-white);
   text-decoration: none;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
 }
 
@@ -181,7 +186,7 @@ body {
 }
 
 .logo-studio-bottom {
-  color: #ffffff;
+  color: var(--pure-white);
 }
 
 .switch-poftfolio {
