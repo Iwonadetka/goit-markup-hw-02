@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
+  color: #ffffff;
 }
 
 :root {
@@ -8,16 +9,17 @@ body {
   --gray-color: #757575;
   --white-backround-color: #f5f4fa;
   --black-color: #000000;
-  --pure-white: #ffffff;
   --dark-gray: #2f303a;
+  --pure-white: #ffffff;
 }
 
 .logo {
   text-decoration: none;
   font-size: 26px;
+  font-family: releway;
   font-weight: 700;
-  font-family: raleway;
 }
+
 .logo-web {
   color: var(--blue-color);
 }
@@ -72,8 +74,6 @@ body {
 }
 
 .topic {
-  color: var(--pure-white);
-  font-weight: 900;
   line-height: 1.36;
   font-size: 44px;
   text-transform: uppercase;
