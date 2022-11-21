@@ -1,6 +1,6 @@
 body {
-  font-family: 'Roboto', "Raleway" sans-serif;
-  color:var(--brand-color);
+  font-family: 'Roboto', 'Raleway' sans-serif;
+  color: var(--brand-color);
 }
 
 :root {
@@ -8,7 +8,7 @@ body {
   --blue-color: #2196f3;
   --gray-color: #757575;
   --white-backround-color: #f5f4fa;
-  --black-color:#000000; 
+  --black-color: #000000;
   --dark-gray: #2f303a;
   --pure-white: #ffffff;
 }
@@ -73,7 +73,7 @@ body {
   top: 80px;
 }
 
-.topic { 
+.topic {
   color: var(--pure-white);
   line-height: 1.36;
   font-size: 44px;
