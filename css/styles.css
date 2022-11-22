@@ -1,16 +1,17 @@
-body {
-  font-family: 'Roboto', 'Raleway' sans-serif;
-  color: var(--brand-color);
-}
-
 :root {
-  --brand-color: #212121;
+  --main-color: #212121;
   --blue-color: #2196f3;
   --gray-color: #757575;
   --white-backround-color: #f5f4fa;
   --black-color: #000000;
   --dark-gray: #2f303a;
   --pure-white: #ffffff;
+  --transparent-font: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+  color: var(--main-color);
 }
 
 .logo {
@@ -33,7 +34,7 @@ body {
 }
 
 .main-controls {
-  color: var(--brand-color);
+  color: var(--main-color);
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
@@ -98,7 +99,7 @@ body {
 }
 
 .lorem {
-  color: var(--brand-color);
+  color: var(--main-color);
   line-height: 1.17;
 }
 
@@ -107,7 +108,7 @@ body {
   line-height: 1.71;
 }
 .competition-topic {
-  color: var(--brand-color);
+  color: var(--main-color);
   line-height: 1.17;
   text-align: center;
   font-size: 36px;
@@ -123,14 +124,14 @@ body {
 }
 
 .our-team-topic {
-  color: var(--brand-color);
+  color: var(--main-color);
   line-height: 1.17;
   text-align: center;
   font-size: 36px;
 }
 
 .john-doe-name {
-  color: var(--brand-color);
+  color: var(--main-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.19;
@@ -154,7 +155,7 @@ body {
   font-size: 14px;
 }
 .mail-bottom {
-  color: var(--pure-white);
+  color: var(--transparent-font);
   text-decoration-line: underline;
   font-size: 14px;
   line-height: 1.71;
@@ -166,7 +167,7 @@ body {
   color: var(--blue-color);
 }
 .tel-bottom {
-  color: var(--pure-white);
+  color: var(--transparent-font);
   text-decoration: none;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -193,7 +194,7 @@ body {
 }
 
 .topic-photo-portfolio {
-  color: var(--brand-color);
+  color: var(--main-color);
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
